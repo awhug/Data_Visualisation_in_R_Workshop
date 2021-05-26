@@ -1,8 +1,8 @@
 #### USING GGPLOT2 TO VISUALISE YOUR DATA ----
 
 # Part 1: Bare Bones - Getting familiar with ggplot syntax
-# Authors: Jemma Collova & Angus Hughes
-# Date: 8/5/2020
+# Authors: Angus Hughes
+# Date: 27/5/2020
 
 #### Importing the packages and data ----
 
@@ -10,17 +10,14 @@
 # install.packages("tidyverse")
 library(tidyverse)
 
-# Set the working directory to the location of this script(helpful code snippet provided by Julian Basanovic). 
-# For this to work you just need to save your R scripts in the same location as your data file. 
-dir_name <- dirname(rstudioapi::getActiveDocumentContext()$path)
-setwd(dir_name) 
-getwd()
-
 # Import the data
 data <- readRDS("experimental_data.rds")
 
 # Checking our variables in the dataset
 names(data)
+
+# Inspect the data (alternatively click on data in the Environment tab)
+View(data)
 
 #### Plotting the distribution of one variable ----
 

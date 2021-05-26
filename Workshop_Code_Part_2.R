@@ -1,8 +1,8 @@
 #### USING GGPLOT2 TO VISUALISE YOUR DATA ----
 
 # Part 2: Advanced Customised Plots
-# Authors: Jemma Collova & Angus Hughes
-# Date: 8/5/2020
+# Authors: Angus Hughes
+# Date: 26/5/2021
 
 #### Splitting Your Plots ----
 
